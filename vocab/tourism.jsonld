@@ -11,96 +11,65 @@
     },
     "@graph": [
         {
-            "@id": "tourism:Action",
+            "@id": "tourism:BasicPrice",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Any type of action, such as searching, reserving, or paying, necessary for an experience program, such as an adventure experience, a business experience, or a wellness experience.",
-            "rdfs:label": "Action",
+            "rdfs:comment": "A sum of money for which something is or may be bought or sold without any discount or surcharge being applied.",
+            "rdfs:label": "BasicPrice",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:ExperienceProgram_Action.Details",
+                    "@id": "cefact:Basic_Price.Details",
                     "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01015183",
-                    "rdfs:comment": "Any type of action, such as searching, reserving, or paying, necessary for an experience program, such as an adventure experience, a business experience, or a wellness experience."
+                    "unece:cefactUNId": "UN01004999",
+                    "rdfs:comment": "A sum of money for which something is or may be bought or sold without any discount or surcharge being applied."
                 }
             ]
         },
         {
-            "@id": "tourism:Allergy",
+            "@id": "tourism:BathingFacility",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A guest condition of the abnormal reaction of the body to a previously encountered substance introduced by inhalation, ingestion, injection, or skin contact.",
-            "rdfs:label": "Allergy",
+            "rdfs:comment": "A space or structure for immersing the body in water, such as a swimming pool.",
+            "rdfs:label": "BathingFacility",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Guest_Allergy.Details",
+                    "@id": "cefact:Bathing_Facility.Details",
                     "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01015189",
-                    "rdfs:comment": "A guest condition of the abnormal reaction of the body to a previously encountered substance introduced by inhalation, ingestion, injection, or skin contact."
+                    "unece:cefactUNId": "UN01001061",
+                    "rdfs:comment": "A space or structure for immersing the body in water, such as a swimming pool."
                 }
             ]
         },
         {
-            "@id": "tourism:Building",
+            "@id": "tourism:BusinessSupportRoomFacility",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A permanent fixed structure of the lodging house.",
-            "rdfs:label": "Building",
+            "rdfs:comment": "A room to support business activities, which may include office equipment and secretarial services.",
+            "rdfs:label": "BusinessSupportRoomFacility",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:LodgingHouse_Building.Details",
+                    "@id": "cefact:BusinessSupportRoom_Facility.Details",
                     "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01001037",
-                    "rdfs:comment": "A permanent fixed structure of the lodging house."
+                    "unece:cefactUNId": "UN01001105",
+                    "rdfs:comment": "A room to support business activities, which may include office equipment and secretarial services."
                 }
             ]
         },
         {
-            "@id": "tourism:CarriedEquipment",
+            "@id": "tourism:CancellationPrice",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A tool or device carried by a guest for an activity.",
-            "rdfs:label": "CarriedEquipment",
+            "rdfs:comment": "A sum of money for cancelling something which is or may be bought or sold.",
+            "rdfs:label": "CancellationPrice",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Guest_CarriedEquipment.Details",
+                    "@id": "cefact:Cancellation_Price.Details",
                     "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01015194",
-                    "rdfs:comment": "A tool or device carried by a guest for an activity."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:Contact",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A person or department that acts as a point of contact with another person or department for this lodging house.",
-            "rdfs:label": "Contact",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:LodgingHouse_Contact.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01001221",
-                    "rdfs:comment": "A person or department that acts as a point of contact with another person or department for this lodging house."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:Contract",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "An agreement, written or spoken and enforceable by law, between a lodging house and another party.",
-            "rdfs:label": "Contract",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:LodgingHouse_Contract.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01001210",
-                    "rdfs:comment": "An agreement, written or spoken and enforceable by law, between a lodging house and another party."
+                    "unece:cefactUNId": "UN01005074",
+                    "rdfs:comment": "A sum of money for cancelling something which is or may be bought or sold."
                 }
             ]
         },
         {
             "@id": "tourism:CustomerClass",
             "@type": "rdfs:Class",
-            "rdfs:comment": [
-                "The conditions and requirements of the type of person who may use or purchase a product.",
-                "The conditions and requirements of the type of person who may use or purchase a lodging house product."
-            ],
+            "rdfs:comment": "The conditions and requirements of the type of person who may use or purchase a product.",
             "rdfs:label": "CustomerClass",
             "unece:cefactElementMetadata": [
                 {
@@ -108,34 +77,42 @@
                     "@type": "unece:AggregateBIE",
                     "unece:cefactUNId": "UN01004945",
                     "rdfs:comment": "The conditions and requirements of the type of person who may use or purchase a product."
-                },
-                {
-                    "@id": "cefact:LodgingHouse_CustomerClass.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01010029",
-                    "rdfs:comment": "The conditions and requirements of the type of person who may use or purchase a lodging house product."
                 }
             ]
         },
         {
-            "@id": "tourism:Disability",
+            "@id": "tourism:DailyPrice",
             "@type": "rdfs:Class",
-            "rdfs:comment": "A physical or mental condition that limits a guest's movements, senses, or activities.",
-            "rdfs:label": "Disability",
+            "rdfs:comment": "A daily sum of money for which this lodging house travel product may be or is sold.",
+            "rdfs:label": "DailyPrice",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Guest_Disability.Details",
+                    "@id": "cefact:Daily_Price.Details",
                     "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01015200",
-                    "rdfs:comment": "A physical or mental condition that limits a guest's movements, senses, or activities."
+                    "unece:cefactUNId": "UN01009685",
+                    "rdfs:comment": "A daily sum of money for which this lodging house travel product may be or is sold."
                 }
             ]
         },
         {
-            "@id": "tourism:Event",
+            "@id": "tourism:DiscountPrice",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A sum of money which is discount against a price for which something may be bought or sold.",
+            "rdfs:label": "DiscountPrice",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Discount_Price.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01005034",
+                    "rdfs:comment": "A sum of money which is discount against a price for which something may be bought or sold."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:ExperienceEvent",
             "@type": "rdfs:Class",
             "rdfs:comment": "An involvement in an experience program in which some thing happens, such as a nature watching, woodware manufacturing, meditation, holiday trip, dinner, theme park visit, could be experienced.",
-            "rdfs:label": "Event",
+            "rdfs:label": "ExperienceEvent",
             "unece:cefactElementMetadata": [
                 {
                     "@id": "cefact:Experience_Event.Details",
@@ -146,173 +123,24 @@
             ]
         },
         {
-            "@id": "tourism:Facility",
+            "@id": "tourism:ExperienceFacility",
             "@type": "rdfs:Class",
-            "rdfs:comment": [
-                "A structure or place, such as a restaurant, hotel, theme park, hot spring bathing pool, parking lot, or meeting room, that provides a particular experience.",
-                "A space or structure for immersing the body in water, such as a swimming pool.",
-                "A place that provides lodging for a guest.",
-                "A room to support business activities, which may include office equipment and secretarial services."
-            ],
-            "rdfs:label": "Facility",
+            "rdfs:comment": "A structure or place, such as a restaurant, hotel, theme park, hot spring bathing pool, parking lot, or meeting room, that provides a particular experience.",
+            "rdfs:label": "ExperienceFacility",
             "unece:cefactElementMetadata": [
                 {
                     "@id": "cefact:Experience_Facility.Details",
                     "@type": "unece:AggregateBIE",
                     "unece:cefactUNId": "UN01015137",
                     "rdfs:comment": "A structure or place, such as a restaurant, hotel, theme park, hot spring bathing pool, parking lot, or meeting room, that provides a particular experience."
-                },
-                {
-                    "@id": "cefact:Bathing_Facility.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01001061",
-                    "rdfs:comment": "A space or structure for immersing the body in water, such as a swimming pool."
-                },
-                {
-                    "@id": "cefact:BusinessSupportRoom_Facility.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01001105",
-                    "rdfs:comment": "A room to support business activities, which may include office equipment and secretarial services."
-                },
-                {
-                    "@id": "cefact:GuestRoom_Facility.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01001047",
-                    "rdfs:comment": "A place that provides lodging for a guest."
                 }
             ]
         },
         {
-            "@id": "tourism:Feature",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Distinctive or characteristic parts of a lodging house.",
-            "rdfs:label": "Feature",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:LodgingHouse_Feature.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01001183",
-                    "rdfs:comment": "Distinctive or characteristic parts of a lodging house."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:FoodChoice",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A guest's decision which food to buy or eat.",
-            "rdfs:label": "FoodChoice",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:Guest_FoodChoice.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01015207",
-                    "rdfs:comment": "A guest's decision which food to buy or eat."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:HealthIndication",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A guest's physical or mental condition.",
-            "rdfs:label": "HealthIndication",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:Guest_HealthIndication.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01015212",
-                    "rdfs:comment": "A guest's physical or mental condition."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:Itinerary",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Schedule and location information for travel for a product component.",
-            "rdfs:label": "Itinerary",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:ProductComponent_Itinerary.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01004979",
-                    "rdfs:comment": "Schedule and location information for travel for a product component."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:Location",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The physical location or place of this lodging house.",
-            "rdfs:label": "Location",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:LodgingHouse_Location.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01001217",
-                    "rdfs:comment": "The physical location or place of this lodging house."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:Organization",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "An organization set up for the purpose of providing temporary accommodation.",
-            "rdfs:label": "Organization",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:LodgingHouse_Organization.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01001027",
-                    "rdfs:comment": "An organization set up for the purpose of providing temporary accommodation."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:Party",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "An individual, a group, or a body having a role in the lodging house business.",
-            "rdfs:label": "Party",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:LodgingHouse_Party.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01001280",
-                    "rdfs:comment": "An individual, a group, or a body having a role in the lodging house business."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:Person",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "An individual guest.",
-            "rdfs:label": "Person",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:Guest_Person.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01009708",
-                    "rdfs:comment": "An individual guest."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:Picture",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A digital image of a painting, drawing, or photograph for this lodging house.",
-            "rdfs:label": "Picture",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:LodgingHouse_Picture.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01001241",
-                    "rdfs:comment": "A digital image of a painting, drawing, or photograph for this lodging house."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:Preference",
+            "@id": "tourism:ExperienceItemPreference",
             "@type": "rdfs:Class",
             "rdfs:comment": "An involvement in a happening, such as a theme park, a guided tour that is liked or wanted more than another item.",
-            "rdfs:label": "Preference",
+            "rdfs:label": "ExperienceItemPreference",
             "unece:cefactElementMetadata": [
                 {
                     "@id": "cefact:ExperienceItem_Preference.Details",
@@ -323,203 +151,10 @@
             ]
         },
         {
-            "@id": "tourism:Price",
-            "@type": "rdfs:Class",
-            "rdfs:comment": [
-                "A sum of money which is an addition to the price for which something is or may be bought or sold, such as for a special meal.",
-                "A daily sum of money for which this lodging house travel product may be or is sold.",
-                "A sum of money for cancelling something which is or may be bought or sold.",
-                "A sum of money which is discount against a price for which something may be bought or sold.",
-                "A sum of money for which something is or may be bought or sold without any discount or surcharge being applied."
-            ],
-            "rdfs:label": "Price",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:Basic_Price.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01004999",
-                    "rdfs:comment": "A sum of money for which something is or may be bought or sold without any discount or surcharge being applied."
-                },
-                {
-                    "@id": "cefact:Cancellation_Price.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01005074",
-                    "rdfs:comment": "A sum of money for cancelling something which is or may be bought or sold."
-                },
-                {
-                    "@id": "cefact:Extra_Price.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01005015",
-                    "rdfs:comment": "A sum of money which is an addition to the price for which something is or may be bought or sold, such as for a special meal."
-                },
-                {
-                    "@id": "cefact:Discount_Price.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01005034",
-                    "rdfs:comment": "A sum of money which is discount against a price for which something may be bought or sold."
-                },
-                {
-                    "@id": "cefact:Daily_Price.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01009685",
-                    "rdfs:comment": "A daily sum of money for which this lodging house travel product may be or is sold."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:Product",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Any service that provides an involvement, such as an adventure experience, wellness experience, social or business activity experience.",
-            "rdfs:label": "Product",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:Experience_Product.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01015155",
-                    "rdfs:comment": "Any service that provides an involvement, such as an adventure experience, wellness experience, social or business activity experience."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:Reservation",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "The action or fact of booking a travel product of this lodging house in advance.",
-            "rdfs:label": "Reservation",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:LodgingHouse_Reservation.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01009789",
-                    "rdfs:comment": "The action or fact of booking a travel product of this lodging house in advance."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:ReservationItem",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "An item of the travel products or services which is specified in the reservation.",
-            "rdfs:label": "ReservationItem",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:TravelProduct_ReservationItem.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01009972",
-                    "rdfs:comment": "An item of the travel products or services which is specified in the reservation."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:ReservationRestriction",
-            "@type": "rdfs:Class",
-            "rdfs:comment": [
-                "A limitation for the booking of a lodging house product or service.",
-                "A limitation for the booking of a product or service."
-            ],
-            "rdfs:label": "ReservationRestriction",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:ReservationRestriction.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01004954",
-                    "rdfs:comment": "A limitation for the booking of a product or service."
-                },
-                {
-                    "@id": "cefact:LodgingHouse_ReservationRestriction.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01010046",
-                    "rdfs:comment": "A limitation for the booking of a lodging house product or service."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:Route",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Way of approach to a lodging house.",
-            "rdfs:label": "Route",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:LodgingHouse_Route.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01001235",
-                    "rdfs:comment": "Way of approach to a lodging house."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:TravelProduct",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A lodging house travel item which may be purchased by a customer.",
-            "rdfs:label": "TravelProduct",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:LodgingHouse_TravelProduct.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01004916",
-                    "rdfs:comment": "A lodging house travel item which may be purchased by a customer."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:TravelProductComponent",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "An item that is included in a lodging house travel product for which there is no additional charge.",
-            "rdfs:label": "TravelProductComponent",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:LodgingHouse_TravelProductComponent.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01004971",
-                    "rdfs:comment": "An item that is included in a lodging house travel product for which there is no additional charge."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:TravelProductSubComponent",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "An item which is included in a lodging house travel product component.",
-            "rdfs:label": "TravelProductSubComponent",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:LodgingHouse_TravelProductSub-Component.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01004985",
-                    "rdfs:comment": "An item which is included in a lodging house travel product component."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:Traveller",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A person or group which is travelling or on a journey and staying at this lodging house.",
-            "rdfs:label": "Traveller",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:LodgingHouse_Traveller.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01009810",
-                    "rdfs:comment": "A person or group which is travelling or on a journey and staying at this lodging house."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:UsageCondition",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "A usage condition for this lodging house.",
-            "rdfs:label": "UsageCondition",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:LodgingHouse_UsageCondition.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01001199",
-                    "rdfs:comment": "A usage condition for this lodging house."
-                }
-            ]
-        },
-        {
-            "@id": "tourism:Voucher",
+            "@id": "tourism:ExperienceItemVoucher",
             "@type": "rdfs:Class",
             "rdfs:comment": "A printed piece of paper or an electronic document that can be used instead of money to pay for an experience, such as a tour, a trip or a meal in a restaurant.",
-            "rdfs:label": "Voucher",
+            "rdfs:label": "ExperienceItemVoucher",
             "unece:cefactElementMetadata": [
                 {
                     "@id": "cefact:ExperienceItem_Voucher.Details",
@@ -530,13 +165,433 @@
             ]
         },
         {
+            "@id": "tourism:ExperienceProduct",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Any service that provides an involvement, such as an adventure experience, wellness experience, social or business activity experience.",
+            "rdfs:label": "ExperienceProduct",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Experience_Product.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01015155",
+                    "rdfs:comment": "Any service that provides an involvement, such as an adventure experience, wellness experience, social or business activity experience."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:ExperienceProgramAction",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Any type of action, such as searching, reserving, or paying, necessary for an experience program, such as an adventure experience, a business experience, or a wellness experience.",
+            "rdfs:label": "ExperienceProgramAction",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:ExperienceProgram_Action.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01015183",
+                    "rdfs:comment": "Any type of action, such as searching, reserving, or paying, necessary for an experience program, such as an adventure experience, a business experience, or a wellness experience."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:ExtraPrice",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A sum of money which is an addition to the price for which something is or may be bought or sold, such as for a special meal.",
+            "rdfs:label": "ExtraPrice",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Extra_Price.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01005015",
+                    "rdfs:comment": "A sum of money which is an addition to the price for which something is or may be bought or sold, such as for a special meal."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:GuestAllergy",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A guest condition of the abnormal reaction of the body to a previously encountered substance introduced by inhalation, ingestion, injection, or skin contact.",
+            "rdfs:label": "GuestAllergy",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Guest_Allergy.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01015189",
+                    "rdfs:comment": "A guest condition of the abnormal reaction of the body to a previously encountered substance introduced by inhalation, ingestion, injection, or skin contact."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:GuestCarriedEquipment",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A tool or device carried by a guest for an activity.",
+            "rdfs:label": "GuestCarriedEquipment",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Guest_CarriedEquipment.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01015194",
+                    "rdfs:comment": "A tool or device carried by a guest for an activity."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:GuestDisability",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A physical or mental condition that limits a guest's movements, senses, or activities.",
+            "rdfs:label": "GuestDisability",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Guest_Disability.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01015200",
+                    "rdfs:comment": "A physical or mental condition that limits a guest's movements, senses, or activities."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:GuestFoodChoice",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A guest's decision which food to buy or eat.",
+            "rdfs:label": "GuestFoodChoice",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Guest_FoodChoice.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01015207",
+                    "rdfs:comment": "A guest's decision which food to buy or eat."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:GuestHealthIndication",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A guest's physical or mental condition.",
+            "rdfs:label": "GuestHealthIndication",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Guest_HealthIndication.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01015212",
+                    "rdfs:comment": "A guest's physical or mental condition."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:GuestPerson",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An individual guest.",
+            "rdfs:label": "GuestPerson",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Guest_Person.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01009708",
+                    "rdfs:comment": "An individual guest."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:GuestRoomFacility",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A place that provides lodging for a guest.",
+            "rdfs:label": "GuestRoomFacility",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:GuestRoom_Facility.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01001047",
+                    "rdfs:comment": "A place that provides lodging for a guest."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHouseBuilding",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A permanent fixed structure of the lodging house.",
+            "rdfs:label": "LodgingHouseBuilding",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_Building.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01001037",
+                    "rdfs:comment": "A permanent fixed structure of the lodging house."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHouseContact",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A person or department that acts as a point of contact with another person or department for this lodging house.",
+            "rdfs:label": "LodgingHouseContact",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_Contact.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01001221",
+                    "rdfs:comment": "A person or department that acts as a point of contact with another person or department for this lodging house."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHouseContract",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An agreement, written or spoken and enforceable by law, between a lodging house and another party.",
+            "rdfs:label": "LodgingHouseContract",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_Contract.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01001210",
+                    "rdfs:comment": "An agreement, written or spoken and enforceable by law, between a lodging house and another party."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHouseCustomerClass",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The conditions and requirements of the type of person who may use or purchase a lodging house product.",
+            "rdfs:label": "LodgingHouseCustomerClass",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_CustomerClass.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01010029",
+                    "rdfs:comment": "The conditions and requirements of the type of person who may use or purchase a lodging house product."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHouseFeature",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Distinctive or characteristic parts of a lodging house.",
+            "rdfs:label": "LodgingHouseFeature",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_Feature.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01001183",
+                    "rdfs:comment": "Distinctive or characteristic parts of a lodging house."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHouseLocation",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The physical location or place of this lodging house.",
+            "rdfs:label": "LodgingHouseLocation",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_Location.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01001217",
+                    "rdfs:comment": "The physical location or place of this lodging house."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHouseOrganization",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An organization set up for the purpose of providing temporary accommodation.",
+            "rdfs:label": "LodgingHouseOrganization",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_Organization.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01001027",
+                    "rdfs:comment": "An organization set up for the purpose of providing temporary accommodation."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHouseParty",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An individual, a group, or a body having a role in the lodging house business.",
+            "rdfs:label": "LodgingHouseParty",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_Party.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01001280",
+                    "rdfs:comment": "An individual, a group, or a body having a role in the lodging house business."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHousePicture",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A digital image of a painting, drawing, or photograph for this lodging house.",
+            "rdfs:label": "LodgingHousePicture",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_Picture.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01001241",
+                    "rdfs:comment": "A digital image of a painting, drawing, or photograph for this lodging house."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHouseReservation",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The action or fact of booking a travel product of this lodging house in advance.",
+            "rdfs:label": "LodgingHouseReservation",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_Reservation.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01009789",
+                    "rdfs:comment": "The action or fact of booking a travel product of this lodging house in advance."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHouseReservationRestriction",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A limitation for the booking of a lodging house product or service.",
+            "rdfs:label": "LodgingHouseReservationRestriction",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_ReservationRestriction.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01010046",
+                    "rdfs:comment": "A limitation for the booking of a lodging house product or service."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHouseRoute",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Way of approach to a lodging house.",
+            "rdfs:label": "LodgingHouseRoute",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_Route.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01001235",
+                    "rdfs:comment": "Way of approach to a lodging house."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHouseTravelProduct",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A lodging house travel item which may be purchased by a customer.",
+            "rdfs:label": "LodgingHouseTravelProduct",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_TravelProduct.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01004916",
+                    "rdfs:comment": "A lodging house travel item which may be purchased by a customer."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHouseTravelProductComponent",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An item that is included in a lodging house travel product for which there is no additional charge.",
+            "rdfs:label": "LodgingHouseTravelProductComponent",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_TravelProductComponent.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01004971",
+                    "rdfs:comment": "An item that is included in a lodging house travel product for which there is no additional charge."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHouseTravelProductSubComponent",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An item which is included in a lodging house travel product component.",
+            "rdfs:label": "LodgingHouseTravelProductSubComponent",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_TravelProductSub-Component.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01004985",
+                    "rdfs:comment": "An item which is included in a lodging house travel product component."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHouseTraveller",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A person or group which is travelling or on a journey and staying at this lodging house.",
+            "rdfs:label": "LodgingHouseTraveller",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_Traveller.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01009810",
+                    "rdfs:comment": "A person or group which is travelling or on a journey and staying at this lodging house."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:LodgingHouseUsageCondition",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A usage condition for this lodging house.",
+            "rdfs:label": "LodgingHouseUsageCondition",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:LodgingHouse_UsageCondition.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01001199",
+                    "rdfs:comment": "A usage condition for this lodging house."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:ProductComponentItinerary",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Schedule and location information for travel for a product component.",
+            "rdfs:label": "ProductComponentItinerary",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:ProductComponent_Itinerary.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01004979",
+                    "rdfs:comment": "Schedule and location information for travel for a product component."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:ReservationRestriction",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A limitation for the booking of a product or service.",
+            "rdfs:label": "ReservationRestriction",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:ReservationRestriction.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01004954",
+                    "rdfs:comment": "A limitation for the booking of a product or service."
+                }
+            ]
+        },
+        {
+            "@id": "tourism:TravelProductReservationItem",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An item of the travel products or services which is specified in the reservation.",
+            "rdfs:label": "TravelProductReservationItem",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:TravelProduct_ReservationItem.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01009972",
+                    "rdfs:comment": "An item of the travel products or services which is specified in the reservation."
+                }
+            ]
+        },
+        {
             "@id": "tourism:acceptedDateTime",
             "@type": "rdf:Property",
             "schema:rangeIncludes": {
                 "@id": "xsd:dateTime"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Reservation"
+                "@id": "tourism:LodgingHouseReservation"
             },
             "rdfs:comment": "The date, time, date time or other date time value that this reservation is accepted for the lodging house.",
             "rdfs:label": "acceptedDateTime",
@@ -557,7 +612,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Party"
+                "@id": "tourism:LodgingHouseParty"
             },
             "rdfs:comment": "The code specifying this lodging house party's access rights.",
             "rdfs:label": "accessRightsCode",
@@ -578,7 +633,7 @@
                 "@id": "tourism:Animal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "A pet animal accompanying this guest person.",
             "rdfs:label": "accompanyingAnimal",
@@ -600,13 +655,19 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Building"
+                    "@id": "tourism:BathingFacility"
                 },
                 {
-                    "@id": "tourism:Facility"
+                    "@id": "tourism:BusinessSupportRoomFacility"
                 },
                 {
-                    "@id": "tourism:TravelProductSubComponent"
+                    "@id": "tourism:GuestRoomFacility"
+                },
+                {
+                    "@id": "tourism:LodgingHouseBuilding"
+                },
+                {
+                    "@id": "tourism:LodgingHouseTravelProductSubComponent"
                 }
             ],
             "rdfs:comment": [
@@ -668,9 +729,20 @@
             "schema:rangeIncludes": {
                 "@id": "tourism:Note"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Price"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:BasicPrice"
+                },
+                {
+                    "@id": "tourism:CancellationPrice"
+                },
+                {
+                    "@id": "tourism:DiscountPrice"
+                },
+                {
+                    "@id": "tourism:ExtraPrice"
+                }
+            ],
             "rdfs:comment": [
                 "Additional information about the travel cancellation price.",
                 "Additional travel product information for a basic price.",
@@ -716,7 +788,7 @@
                 "@id": "tourism:Note"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "An additional personal note for this guest.",
             "rdfs:label": "additionalNote",
@@ -737,7 +809,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:UsageCondition"
+                "@id": "tourism:LodgingHouseUsageCondition"
             },
             "rdfs:comment": "The age limitation, expressed as text, applicable to this lodging house usage condition.",
             "rdfs:label": "ageLimitation",
@@ -758,7 +830,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "The measure of the age of this guest person.",
             "rdfs:label": "ageMeasure",
@@ -780,7 +852,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Organization"
+                "@id": "tourism:LodgingHouseOrganization"
             },
             "rdfs:comment": "A name of an alliance, expressed as text, in which this lodging house organization participates, such as JTB Accredited Hotels and Ryokans Group, Accredited Hotel Group, STAR ALLIANCE Member Hotel Group.",
             "rdfs:label": "allianceName",
@@ -801,7 +873,7 @@
                 "@id": "tourism:Availability"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProduct"
+                "@id": "tourism:LodgingHouseTravelProduct"
             },
             "rdfs:comment": "Product availability applicable to this lodging house travel product.",
             "rdfs:label": "applicableAvailability",
@@ -823,10 +895,19 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Price"
+                    "@id": "tourism:BasicPrice"
                 },
                 {
-                    "@id": "tourism:TravelProduct"
+                    "@id": "tourism:CancellationPrice"
+                },
+                {
+                    "@id": "tourism:DiscountPrice"
+                },
+                {
+                    "@id": "tourism:ExtraPrice"
+                },
+                {
+                    "@id": "tourism:LodgingHouseTravelProduct"
                 }
             ],
             "rdfs:comment": [
@@ -921,7 +1002,7 @@
                 "@id": "xsd:boolean"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Voucher"
+                "@id": "tourism:ExperienceItemVoucher"
             },
             "rdfs:comment": "The indication of whether or not this experience item voucher is applicable.",
             "rdfs:label": "applicableIndicator",
@@ -943,13 +1024,13 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:Person"
+                    "@id": "tourism:ExperienceProduct"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:GuestPerson"
                 }
             ],
             "rdfs:comment": [
@@ -989,7 +1070,7 @@
                 "@id": "tourism:Payment"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Reservation"
+                "@id": "tourism:LodgingHouseReservation"
             },
             "rdfs:comment": "A payment applicable for this lodging house reservation.",
             "rdfs:label": "applicablePayment",
@@ -1010,7 +1091,7 @@
                 "@id": "tourism:Period"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProduct"
+                "@id": "tourism:LodgingHouseTravelProduct"
             },
             "rdfs:comment": "A period applicable to this lodging house travel product.",
             "rdfs:label": "applicablePeriod",
@@ -1031,7 +1112,7 @@
                 "@id": "tourism:Price"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProduct"
+                "@id": "tourism:LodgingHouseTravelProduct"
             },
             "rdfs:comment": [
                 "A basic price applicable to this lodging house travel product.",
@@ -1086,7 +1167,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Product"
+                "@id": "tourism:ExperienceProduct"
             },
             "rdfs:comment": "The code specifying the type of quantity unit applicable for this experience product.",
             "rdfs:label": "applicableQuantityUnitTypeCode",
@@ -1107,7 +1188,7 @@
                 "@id": "tourism:Tax"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProduct"
+                "@id": "tourism:LodgingHouseTravelProduct"
             },
             "rdfs:comment": "A tax applicable to this lodging house travel product.",
             "rdfs:label": "applicableTax",
@@ -1128,7 +1209,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProductSubComponent"
+                "@id": "tourism:LodgingHouseTravelProductSubComponent"
             },
             "rdfs:comment": "The number of units applicable to this lodging house travel product sub-component.",
             "rdfs:label": "applicableUnitQuantity",
@@ -1149,7 +1230,7 @@
                 "@id": "tourism:UsageCondition"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProductSubComponent"
+                "@id": "tourism:LodgingHouseTravelProductSubComponent"
             },
             "rdfs:comment": [
                 "A usage condition applicable to this lodging house travel product sub-component.",
@@ -1180,7 +1261,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:UsageCondition"
+                "@id": "tourism:LodgingHouseUsageCondition"
             },
             "rdfs:comment": "The appropriate clothing, expressed as text, applicable to this lodging house usage condition.",
             "rdfs:label": "appropriateClothing",
@@ -1202,10 +1283,19 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Building"
+                    "@id": "tourism:BathingFacility"
                 },
                 {
-                    "@id": "tourism:Facility"
+                    "@id": "tourism:BusinessSupportRoomFacility"
+                },
+                {
+                    "@id": "tourism:ExperienceFacility"
+                },
+                {
+                    "@id": "tourism:GuestRoomFacility"
+                },
+                {
+                    "@id": "tourism:LodgingHouseBuilding"
                 }
             ],
             "rdfs:comment": [
@@ -1261,7 +1351,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Picture"
+                "@id": "tourism:LodgingHousePicture"
             },
             "rdfs:comment": "The area or location, expressed as text, that is included for this lodging house picture.",
             "rdfs:label": "areaIncluded",
@@ -1282,7 +1372,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Organization"
+                "@id": "tourism:LodgingHouseOrganization"
             },
             "rdfs:comment": "A name, expressed as text, of an association membership held by this lodging house organization, such as the Japan Ryokan Association or the Hotel Electronic Distribution Network Association.",
             "rdfs:label": "associationMembershipName",
@@ -1303,7 +1393,7 @@
                 "@id": "xsd:boolean"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Contract"
+                "@id": "tourism:LodgingHouseContract"
             },
             "rdfs:comment": "The indication of whether or not this lodging house contract can be or has been automatically extended.",
             "rdfs:label": "automaticExtensionIndicator",
@@ -1324,7 +1414,7 @@
                 "@id": "tourism:Period"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Contact"
+                "@id": "tourism:LodgingHouseContact"
             },
             "rdfs:comment": "A period during which this lodging house contact is available.",
             "rdfs:label": "availablePeriod",
@@ -1345,7 +1435,7 @@
                 "@id": "tourism:Route"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Facility"
+                "@id": "tourism:ExperienceFacility"
             },
             "rdfs:comment": "An available route specified for this experience facility.",
             "rdfs:label": "availableRoute",
@@ -1366,7 +1456,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:DailyPrice"
             },
             "rdfs:comment": "The monetary value of the basic price charged on which this daily price is calculated.",
             "rdfs:label": "basicChargeAmount",
@@ -1387,7 +1477,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Event"
+                "@id": "tourism:ExperienceEvent"
             },
             "rdfs:comment": "A basic objective, expressed as text, for this experience event.",
             "rdfs:label": "basicObjective",
@@ -1408,7 +1498,7 @@
                 "@id": "unece:UNECECL5375Code"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:BasicPrice"
             },
             "rdfs:comment": "The code specifying the bracket type of this basic price.",
             "rdfs:label": "basicPriceBracketTypeCode",
@@ -1430,7 +1520,7 @@
                 "@id": "unece:UNECECL5375Code"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:BasicPrice"
             },
             "rdfs:comment": "The code specifying the type of basic price.",
             "rdfs:label": "basicPriceTypeCode",
@@ -1451,9 +1541,20 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:decimal"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Price"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:BasicPrice"
+                },
+                {
+                    "@id": "tourism:CancellationPrice"
+                },
+                {
+                    "@id": "tourism:DiscountPrice"
+                },
+                {
+                    "@id": "tourism:ExtraPrice"
+                }
+            ],
             "rdfs:comment": [
                 "The quantity on which the basic price is based.",
                 "The quantity on which the cancellation price is based.",
@@ -1503,7 +1604,7 @@
                 "@id": "xsd:dateTime"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "The date, time, date time, or other date time value which specifies the birth date for this guest.",
             "rdfs:label": "birthDateTime",
@@ -1526,13 +1627,13 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Organization"
+                    "@id": "tourism:ExperienceProduct"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:LodgingHouseOrganization"
                 },
                 {
-                    "@id": "tourism:TravelProduct"
+                    "@id": "tourism:LodgingHouseTravelProduct"
                 }
             ],
             "rdfs:comment": [
@@ -1573,7 +1674,7 @@
                 "@id": "xsd:dateTime"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Event"
+                "@id": "tourism:ExperienceEvent"
             },
             "rdfs:comment": "The break up date, time, date time, or other date time value for this experience event.",
             "rdfs:label": "breakUpDateTime",
@@ -1594,7 +1695,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Organization"
+                "@id": "tourism:LodgingHouseOrganization"
             },
             "rdfs:comment": "A code specifying the business type of this lodging house organization.",
             "rdfs:label": "businessTypeCode",
@@ -1616,10 +1717,10 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:ExperienceProduct"
                 }
             ],
             "rdfs:comment": [
@@ -1650,9 +1751,17 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:decimal"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Price"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:CancellationPrice"
+                },
+                {
+                    "@id": "tourism:DiscountPrice"
+                },
+                {
+                    "@id": "tourism:ExtraPrice"
+                }
+            ],
             "rdfs:comment": [
                 "The percentage applied to calculate the cancellation price.",
                 "The percentage applied to calculate the discount price.",
@@ -1690,7 +1799,7 @@
                 "@id": "xsd:dateTime"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Reservation"
+                "@id": "tourism:LodgingHouseReservation"
             },
             "rdfs:comment": "The date, time, date time, or other date time value when the cancellation was accepted for this lodging house reservation.",
             "rdfs:label": "cancellationAcceptedDateTime",
@@ -1711,7 +1820,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:DailyPrice"
             },
             "rdfs:comment": "The monetary value of the cancellation price charged on which this daily price is calculated.",
             "rdfs:label": "cancellationChargeAmount",
@@ -1731,9 +1840,17 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:boolean"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Price"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:BasicPrice"
+                },
+                {
+                    "@id": "tourism:DiscountPrice"
+                },
+                {
+                    "@id": "tourism:ExtraPrice"
+                }
+            ],
             "rdfs:comment": [
                 "The indication of whether or not a cancellation charge is applicable to the discount price.",
                 "The indication of whether or not a cancellation charge is applicable to the extra price.",
@@ -1771,7 +1888,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Reservation"
+                "@id": "tourism:LodgingHouseReservation"
             },
             "rdfs:comment": "The identifier of the cancellation for this lodging house reservation.",
             "rdfs:label": "cancellationId",
@@ -1792,7 +1909,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProduct"
+                "@id": "tourism:LodgingHouseTravelProduct"
             },
             "rdfs:comment": "The cancellation policy, expressed as text, for this lodging house travel product.",
             "rdfs:label": "cancellationPolicy",
@@ -1813,7 +1930,7 @@
                 "@id": "tourism:Certificate"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "A certificate carried by this guest person.",
             "rdfs:label": "carriedCertificate",
@@ -1838,19 +1955,22 @@
                     "@id": "tourism:CustomerClass"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:ExperienceProduct"
                 },
                 {
-                    "@id": "tourism:TravelProduct"
+                    "@id": "tourism:LodgingHouseCustomerClass"
                 },
                 {
-                    "@id": "tourism:TravelProductComponent"
+                    "@id": "tourism:LodgingHouseTravelProduct"
                 },
                 {
-                    "@id": "tourism:TravelProductSubComponent"
+                    "@id": "tourism:LodgingHouseTravelProductComponent"
                 },
                 {
-                    "@id": "tourism:Traveller"
+                    "@id": "tourism:LodgingHouseTravelProductSubComponent"
+                },
+                {
+                    "@id": "tourism:LodgingHouseTraveller"
                 }
             ],
             "rdfs:comment": [
@@ -1926,7 +2046,10 @@
                     "@id": "tourism:CustomerClass"
                 },
                 {
-                    "@id": "tourism:TravelProductComponent"
+                    "@id": "tourism:LodgingHouseCustomerClass"
+                },
+                {
+                    "@id": "tourism:LodgingHouseTravelProductComponent"
                 }
             ],
             "rdfs:comment": [
@@ -1966,7 +2089,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProductSubComponent"
+                "@id": "tourism:LodgingHouseTravelProductSubComponent"
             },
             "rdfs:comment": "The code specifying the type of category for this lodging house travel product sub-component.",
             "rdfs:label": "categoryTypeCode",
@@ -1987,7 +2110,7 @@
                 "@id": "xsd:boolean"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Product"
+                "@id": "tourism:ExperienceProduct"
             },
             "rdfs:comment": "The indication of whether or not a certified person arrangement is made for this experience product.",
             "rdfs:label": "certifiedPersonArrangementIndicator",
@@ -2008,7 +2131,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Organization"
+                "@id": "tourism:LodgingHouseOrganization"
             },
             "rdfs:comment": "A name of the chain, expressed as text, to which this lodging house organization belongs.",
             "rdfs:label": "chainName",
@@ -2028,9 +2151,20 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:decimal"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Price"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:BasicPrice"
+                },
+                {
+                    "@id": "tourism:CancellationPrice"
+                },
+                {
+                    "@id": "tourism:DiscountPrice"
+                },
+                {
+                    "@id": "tourism:ExtraPrice"
+                }
+            ],
             "rdfs:comment": [
                 "The monetary value of the basic price charged.",
                 "The monetary value of the cancellation price charged.",
@@ -2076,7 +2210,7 @@
                 "@id": "xsd:dateTime"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:DailyPrice"
             },
             "rdfs:comment": "The date, time, date time, or other date time value when this daily price was or will be charged.",
             "rdfs:label": "chargeDateTime",
@@ -2099,10 +2233,10 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Price"
+                    "@id": "tourism:DailyPrice"
                 },
                 {
-                    "@id": "tourism:TravelProduct"
+                    "@id": "tourism:LodgingHouseTravelProduct"
                 }
             ],
             "rdfs:comment": [
@@ -2166,7 +2300,7 @@
                 "@id": "tourism:Tax"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:DailyPrice"
             },
             "rdfs:comment": "A travel product tax charged for this daily price.",
             "rdfs:label": "chargedTax",
@@ -2188,10 +2322,10 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:TravelProductComponent"
+                    "@id": "tourism:LodgingHouseTravelProductComponent"
                 }
             ],
             "rdfs:comment": [
@@ -2223,7 +2357,7 @@
                 "@id": "tourism:LanguageProficiency"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "Personal language proficiency skills claimed by this guest person.",
             "rdfs:label": "claimedLanguageProficiency",
@@ -2244,7 +2378,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Party"
+                "@id": "tourism:LodgingHouseParty"
             },
             "rdfs:comment": "The code specifying the classification of this lodging house party.",
             "rdfs:label": "classificationCode",
@@ -2265,7 +2399,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:DailyPrice"
             },
             "rdfs:comment": "The monetary value of the commission charged on which this daily price is calculated.",
             "rdfs:label": "commissionChargeAmount",
@@ -2285,9 +2419,17 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:boolean"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Price"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:BasicPrice"
+                },
+                {
+                    "@id": "tourism:DiscountPrice"
+                },
+                {
+                    "@id": "tourism:ExtraPrice"
+                }
+            ],
             "rdfs:comment": [
                 "The indication of whether or not a commission will be paid for this basic price.",
                 "The indication of whether or not a commission will be paid for this discount price.",
@@ -2325,7 +2467,7 @@
                 "@id": "xsd:dateTime"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Facility"
+                "@id": "tourism:ExperienceFacility"
             },
             "rdfs:comment": "The date of the completion of this experience facility.",
             "rdfs:label": "completionDateTime",
@@ -2346,7 +2488,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Guarantee"
+                "@id": ":FinancialGuarantee"
             },
             "rdfs:comment": "The condition, expressed as text, for this financial guarantee.",
             "rdfs:label": "condition",
@@ -2366,9 +2508,17 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:base64Binary"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Facility"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:BathingFacility"
+                },
+                {
+                    "@id": "tourism:BusinessSupportRoomFacility"
+                },
+                {
+                    "@id": "tourism:GuestRoomFacility"
+                }
+            ],
             "rdfs:comment": [
                 "The date of the construction of this bathing facility.",
                 "The date of the construction of this business support room.",
@@ -2406,7 +2556,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Picture"
+                "@id": "tourism:LodgingHousePicture"
             },
             "rdfs:comment": "The name of the company or individual person, expressed as text, that owns the copyright for this lodging house picture.",
             "rdfs:label": "copyrightOwnerName",
@@ -2427,7 +2577,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Picture"
+                "@id": "tourism:LodgingHousePicture"
             },
             "rdfs:comment": "The unique identifier under which the copyright is registered for this lodging house picture.",
             "rdfs:label": "copyrightRegisteredId",
@@ -2448,7 +2598,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:DailyPrice"
             },
             "rdfs:comment": "The number of customer service points for this daily price.",
             "rdfs:label": "customerServicePointQuantity",
@@ -2469,7 +2619,7 @@
                 "@id": "unece:UNECECL5375Code"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:DailyPrice"
             },
             "rdfs:comment": "The code specifying the type of this daily price, such as tax inclusive, tax and service charge inclusive.",
             "rdfs:label": "dailyPriceTypeCode",
@@ -2491,7 +2641,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Event"
+                "@id": "tourism:ExperienceEvent"
             },
             "rdfs:comment": "The date sequence number for this experience event.",
             "rdfs:label": "dateSequenceNumeric",
@@ -2512,7 +2662,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Itinerary"
+                "@id": "tourism:ProductComponentItinerary"
             },
             "rdfs:comment": "The number of the day in this product component itinerary, such as day 1, day 2, or day 3.",
             "rdfs:label": "dayNumeric",
@@ -2533,7 +2683,7 @@
                 "@id": "tourism:Contact"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Party"
+                "@id": "tourism:LodgingHouseParty"
             },
             "rdfs:comment": "The defined contact for this lodging house party.",
             "rdfs:label": "definedContact",
@@ -2554,7 +2704,7 @@
                 "@id": "tourism:Feature"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProduct"
+                "@id": "tourism:LodgingHouseTravelProduct"
             },
             "rdfs:comment": "A feature defined for this lodging house travel product.",
             "rdfs:label": "definedFeature",
@@ -2575,7 +2725,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Contact"
+                "@id": "tourism:LodgingHouseContact"
             },
             "rdfs:comment": "The department name, expressed as text, to which this contact belongs within this lodging house.",
             "rdfs:label": "departmentName",
@@ -2597,7 +2747,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Route"
+                "@id": "tourism:LodgingHouseRoute"
             },
             "rdfs:comment": "The departure point, expressed as text, for this route to this lodging house.",
             "rdfs:label": "departurePoint",
@@ -2619,88 +2769,103 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Action"
+                    "@id": "tourism:BathingFacility"
                 },
                 {
-                    "@id": "tourism:Allergy"
-                },
-                {
-                    "@id": "tourism:Building"
-                },
-                {
-                    "@id": "tourism:CarriedEquipment"
-                },
-                {
-                    "@id": "tourism:Contact"
+                    "@id": "tourism:BusinessSupportRoomFacility"
                 },
                 {
                     "@id": "tourism:CustomerClass"
                 },
                 {
-                    "@id": "tourism:Disability"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:ExperienceFacility"
                 },
                 {
-                    "@id": "tourism:Facility"
+                    "@id": "tourism:ExperienceItemPreference"
                 },
                 {
-                    "@id": "tourism:Feature"
+                    "@id": "tourism:ExperienceItemVoucher"
                 },
                 {
-                    "@id": "tourism:FoodChoice"
+                    "@id": "tourism:ExperienceProduct"
                 },
                 {
-                    "@id": "tourism:HealthIndication"
+                    "@id": "tourism:ExperienceProgramAction"
                 },
                 {
-                    "@id": "tourism:Organization"
+                    "@id": "tourism:GuestAllergy"
                 },
                 {
-                    "@id": "tourism:Party"
+                    "@id": "tourism:GuestCarriedEquipment"
                 },
                 {
-                    "@id": "tourism:Person"
+                    "@id": "tourism:GuestDisability"
                 },
                 {
-                    "@id": "tourism:Picture"
+                    "@id": "tourism:GuestFoodChoice"
                 },
                 {
-                    "@id": "tourism:Preference"
+                    "@id": "tourism:GuestHealthIndication"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:GuestPerson"
                 },
                 {
-                    "@id": "tourism:Reservation"
+                    "@id": "tourism:GuestRoomFacility"
                 },
                 {
-                    "@id": "tourism:ReservationItem"
+                    "@id": "tourism:LodgingHouseBuilding"
+                },
+                {
+                    "@id": "tourism:LodgingHouseContact"
+                },
+                {
+                    "@id": "tourism:LodgingHouseCustomerClass"
+                },
+                {
+                    "@id": "tourism:LodgingHouseFeature"
+                },
+                {
+                    "@id": "tourism:LodgingHouseOrganization"
+                },
+                {
+                    "@id": "tourism:LodgingHouseParty"
+                },
+                {
+                    "@id": "tourism:LodgingHousePicture"
+                },
+                {
+                    "@id": "tourism:LodgingHouseReservation"
+                },
+                {
+                    "@id": "tourism:LodgingHouseReservationRestriction"
+                },
+                {
+                    "@id": "tourism:LodgingHouseRoute"
+                },
+                {
+                    "@id": "tourism:LodgingHouseTravelProduct"
+                },
+                {
+                    "@id": "tourism:LodgingHouseTravelProductComponent"
+                },
+                {
+                    "@id": "tourism:LodgingHouseTravelProductSubComponent"
+                },
+                {
+                    "@id": "tourism:LodgingHouseTraveller"
+                },
+                {
+                    "@id": "tourism:LodgingHouseUsageCondition"
                 },
                 {
                     "@id": "tourism:ReservationRestriction"
                 },
                 {
-                    "@id": "tourism:Route"
-                },
-                {
-                    "@id": "tourism:TravelProduct"
-                },
-                {
-                    "@id": "tourism:TravelProductComponent"
-                },
-                {
-                    "@id": "tourism:TravelProductSubComponent"
-                },
-                {
-                    "@id": "tourism:Traveller"
-                },
-                {
-                    "@id": "tourism:UsageCondition"
-                },
-                {
-                    "@id": "tourism:Voucher"
+                    "@id": "tourism:TravelProductReservationItem"
                 }
             ],
             "rdfs:comment": [
@@ -2980,7 +3145,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:CancellationPrice"
             },
             "rdfs:comment": "The code specifying how the cancellation price is determined.",
             "rdfs:label": "determinationCode",
@@ -3001,7 +3166,7 @@
                 "@id": "xsd:base64Binary"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Picture"
+                "@id": "tourism:LodgingHousePicture"
             },
             "rdfs:comment": "The binary object data that is a digital image for this lodging house picture.",
             "rdfs:label": "digitalImageBinaryObject",
@@ -3022,7 +3187,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Location"
+                "@id": "tourism:LodgingHouseLocation"
             },
             "rdfs:comment": "A textual description of how to reach this lodging house location.",
             "rdfs:label": "directions",
@@ -3043,7 +3208,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:DailyPrice"
             },
             "rdfs:comment": "The monetary value of the discount price charged on which this daily price is calculated.",
             "rdfs:label": "discountChargeAmount",
@@ -3064,7 +3229,7 @@
                 "@id": "unece:UNECECL5375Code"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:DiscountPrice"
             },
             "rdfs:comment": "The code specifying the type of discount price.",
             "rdfs:label": "discountPriceTypeCode",
@@ -3086,7 +3251,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Preference"
+                "@id": "tourism:ExperienceItemPreference"
             },
             "rdfs:comment": "A disliked item, expressed as text, for this experience item preference.",
             "rdfs:label": "dislikedItem",
@@ -3108,19 +3273,25 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Building"
+                    "@id": "tourism:BathingFacility"
                 },
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:BusinessSupportRoomFacility"
                 },
                 {
-                    "@id": "tourism:Facility"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:ExperienceProduct"
                 },
                 {
-                    "@id": "tourism:TravelProductSubComponent"
+                    "@id": "tourism:GuestRoomFacility"
+                },
+                {
+                    "@id": "tourism:LodgingHouseBuilding"
+                },
+                {
+                    "@id": "tourism:LodgingHouseTravelProductSubComponent"
                 }
             ],
             "rdfs:comment": [
@@ -3192,7 +3363,7 @@
                 "@id": "tourism:Period"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Contract"
+                "@id": "tourism:LodgingHouseContract"
             },
             "rdfs:comment": "The specified period for which this lodging house contract is effective.",
             "rdfs:label": "effectivePeriod",
@@ -3213,7 +3384,7 @@
                 "@id": "xsd:dateTime"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Period"
+                "@id": ":AvailablePeriod"
             },
             "rdfs:comment": "The date, time, date time or other date time value for the end of this available period of time.",
             "rdfs:label": "endDateTime",
@@ -3234,7 +3405,7 @@
                 "@id": "unece:UNECECL9039Code"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Facility"
+                "@id": "tourism:ExperienceFacility"
             },
             "rdfs:comment": "The code specifying the type of experience facility.",
             "rdfs:label": "experienceFacilityTypeCode",
@@ -3256,7 +3427,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:DailyPrice"
             },
             "rdfs:comment": "The monetary value of the additional price charged on which this daily price is calculated.",
             "rdfs:label": "extraChargeAmount",
@@ -3277,7 +3448,7 @@
                 "@id": "unece:UNECECL5375Code"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:ExtraPrice"
             },
             "rdfs:comment": "The code specifying the type of extra price.",
             "rdfs:label": "extraPriceTypeCode",
@@ -3299,7 +3470,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Voucher"
+                "@id": "tourism:ExperienceItemVoucher"
             },
             "rdfs:comment": "A monetary value shown on the face of this experience item voucher.",
             "rdfs:label": "faceAmount",
@@ -3320,7 +3491,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Building"
+                "@id": "tourism:LodgingHouseBuilding"
             },
             "rdfs:comment": "The familiar name such as a nickname, expressed as text, of the lodging house building.",
             "rdfs:label": "familiarName",
@@ -3341,7 +3512,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Building"
+                "@id": "tourism:LodgingHouseBuilding"
             },
             "rdfs:comment": "A formal name, expressed as text, of this lodging house building.",
             "rdfs:label": "formalName",
@@ -3366,7 +3537,10 @@
                     "@id": "tourism:CustomerClass"
                 },
                 {
-                    "@id": "tourism:Person"
+                    "@id": "tourism:GuestPerson"
+                },
+                {
+                    "@id": "tourism:LodgingHouseCustomerClass"
                 }
             ],
             "rdfs:comment": [
@@ -3407,7 +3581,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:UsageCondition"
+                "@id": "tourism:LodgingHouseUsageCondition"
             },
             "rdfs:comment": "The gender limitation, expressed as text, applicable to this lodging house usage condition.",
             "rdfs:label": "genderLimitation",
@@ -3428,7 +3602,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:UsageCondition"
+                "@id": "tourism:LodgingHouseUsageCondition"
             },
             "rdfs:comment": "The duration, expressed as text, allowed for a group, applicable to this lodging house usage condition.",
             "rdfs:label": "groupAllowedDuration",
@@ -3449,7 +3623,7 @@
                 "@id": "xsd:boolean"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:UsageCondition"
+                "@id": "tourism:LodgingHouseUsageCondition"
             },
             "rdfs:comment": "The indication of whether or not this lodging house usage condition applies to a group.",
             "rdfs:label": "groupApplicableIndicator",
@@ -3470,7 +3644,7 @@
                 "@id": "tourism:Membership"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "A travel related membership held by this guest.",
             "rdfs:label": "heldMembership",
@@ -3491,7 +3665,7 @@
                 "@id": "tourism:ReservationItem"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProduct"
+                "@id": "tourism:LodgingHouseTravelProduct"
             },
             "rdfs:comment": "The reservation item held for this lodging house travel product.",
             "rdfs:label": "heldReservationItem",
@@ -3513,61 +3687,70 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Building"
+                    "@id": "tourism:BathingFacility"
                 },
                 {
-                    "@id": "tourism:Contact"
+                    "@id": "tourism:BusinessSupportRoomFacility"
                 },
                 {
-                    "@id": "tourism:Contract"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:ExperienceFacility"
                 },
                 {
-                    "@id": "tourism:Facility"
+                    "@id": "tourism:ExperienceItemVoucher"
                 },
                 {
-                    "@id": "tourism:Feature"
+                    "@id": "tourism:ExperienceProduct"
                 },
                 {
-                    "@id": "tourism:Location"
+                    "@id": "tourism:GuestPerson"
                 },
                 {
-                    "@id": "tourism:Organization"
+                    "@id": "tourism:GuestRoomFacility"
                 },
                 {
-                    "@id": "tourism:Party"
+                    "@id": "tourism:LodgingHouseBuilding"
                 },
                 {
-                    "@id": "tourism:Person"
+                    "@id": "tourism:LodgingHouseContact"
                 },
                 {
-                    "@id": "tourism:Picture"
+                    "@id": "tourism:LodgingHouseContract"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:LodgingHouseFeature"
                 },
                 {
-                    "@id": "tourism:Reservation"
+                    "@id": "tourism:LodgingHouseLocation"
                 },
                 {
-                    "@id": "tourism:Route"
+                    "@id": "tourism:LodgingHouseOrganization"
                 },
                 {
-                    "@id": "tourism:TravelProduct"
+                    "@id": "tourism:LodgingHouseParty"
                 },
                 {
-                    "@id": "tourism:TravelProductComponent"
+                    "@id": "tourism:LodgingHousePicture"
                 },
                 {
-                    "@id": "tourism:TravelProductSubComponent"
+                    "@id": "tourism:LodgingHouseReservation"
                 },
                 {
-                    "@id": "tourism:UsageCondition"
+                    "@id": "tourism:LodgingHouseRoute"
                 },
                 {
-                    "@id": "tourism:Voucher"
+                    "@id": "tourism:LodgingHouseTravelProduct"
+                },
+                {
+                    "@id": "tourism:LodgingHouseTravelProductComponent"
+                },
+                {
+                    "@id": "tourism:LodgingHouseTravelProductSubComponent"
+                },
+                {
+                    "@id": "tourism:LodgingHouseUsageCondition"
                 }
             ],
             "rdfs:comment": [
@@ -3766,7 +3949,7 @@
                 "@id": "tourism:Party"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Contract"
+                "@id": "tourism:LodgingHouseContract"
             },
             "rdfs:comment": "The lodging house party identified in this lodging house contract.",
             "rdfs:label": "identifiedParty",
@@ -3787,7 +3970,7 @@
                 "@id": "tourism:Event"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Product"
+                "@id": "tourism:ExperienceProduct"
             },
             "rdfs:comment": "An event included within this experience product.",
             "rdfs:label": "includedEvent",
@@ -3808,7 +3991,7 @@
                 "@id": "tourism:TravelProductComponent"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProduct"
+                "@id": "tourism:LodgingHouseTravelProduct"
             },
             "rdfs:comment": "A lodging house travel product component included in this lodging house travel product.",
             "rdfs:label": "includedTravelProductComponent",
@@ -3829,7 +4012,7 @@
                 "@id": "tourism:TravelProductSub-Component"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Itinerary"
+                "@id": "tourism:ProductComponentItinerary"
             },
             "rdfs:comment": "The lodging house travel product sub-component included in this product component itinerary.",
             "rdfs:label": "includedTravelProductSub-Component",
@@ -3851,13 +4034,13 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:ExperienceProduct"
                 },
                 {
-                    "@id": "tourism:TravelProduct"
+                    "@id": "tourism:LodgingHouseTravelProduct"
                 }
             ],
             "rdfs:comment": [
@@ -3897,7 +4080,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:DailyPrice"
             },
             "rdfs:comment": "Information, expressed as text about this daily price.",
             "rdfs:label": "information",
@@ -3918,7 +4101,7 @@
                 "@id": "tourism:Address"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "The structured address information of this guest.",
             "rdfs:label": "informationAddress",
@@ -3939,7 +4122,7 @@
                 "@id": "tourism:Person"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Traveller"
+                "@id": "tourism:LodgingHouseTraveller"
             },
             "rdfs:comment": "The personal information provided for this lodging house traveller.",
             "rdfs:label": "informationProvidedPerson",
@@ -3961,10 +4144,10 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:ExperienceProduct"
                 }
             ],
             "rdfs:comment": [
@@ -3996,7 +4179,7 @@
                 "@id": "xsd:dateTime"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Voucher"
+                "@id": "tourism:ExperienceItemVoucher"
             },
             "rdfs:comment": "The date or date time of the issuance of this experience item voucher.",
             "rdfs:label": "issueDateTime",
@@ -4017,7 +4200,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Voucher"
+                "@id": "tourism:ExperienceItemVoucher"
             },
             "rdfs:comment": "A name, expressed as text, of the company issuing this experience item voucher.",
             "rdfs:label": "issuingCompanyName",
@@ -4038,7 +4221,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Contact"
+                "@id": "tourism:LodgingHouseContact"
             },
             "rdfs:comment": "The job title, position or designation, expressed as text, of this contact person for this lodging house.",
             "rdfs:label": "jobTitle",
@@ -4059,7 +4242,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Feature"
+                "@id": "tourism:LodgingHouseFeature"
             },
             "rdfs:comment": "A keyword for a catch phrase, expressed as text, for marketing this lodging house feature.",
             "rdfs:label": "keywordMarketingPhrase",
@@ -4080,7 +4263,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Party"
+                "@id": "tourism:LodgingHouseParty"
             },
             "rdfs:comment": "A code specifying a language for this lodging house party.",
             "rdfs:label": "languageCode",
@@ -4102,7 +4285,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "The identifier of the language of this guest.",
             "rdfs:label": "languageId",
@@ -4125,10 +4308,16 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Building"
+                    "@id": "tourism:BathingFacility"
                 },
                 {
-                    "@id": "tourism:Facility"
+                    "@id": "tourism:BusinessSupportRoomFacility"
+                },
+                {
+                    "@id": "tourism:GuestRoomFacility"
+                },
+                {
+                    "@id": "tourism:LodgingHouseBuilding"
                 }
             ],
             "rdfs:comment": [
@@ -4176,7 +4365,7 @@
                 "@id": "xsd:dateTime"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Facility"
+                "@id": "tourism:ExperienceFacility"
             },
             "rdfs:comment": "The date of the latest renovation of this experience facility.",
             "rdfs:label": "latestRenovationDateTime",
@@ -4197,7 +4386,7 @@
                 "@id": "xsd:boolean"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Traveller"
+                "@id": "tourism:LodgingHouseTraveller"
             },
             "rdfs:comment": "The indication of whether or not this lodging house traveller is a leader of a group of travellers.",
             "rdfs:label": "leaderIndicator",
@@ -4218,7 +4407,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Feature"
+                "@id": "tourism:LodgingHouseFeature"
             },
             "rdfs:comment": "The name of the locale, expressed as text, for this lodging house feature.",
             "rdfs:label": "localeName",
@@ -4240,10 +4429,10 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:ExperienceProduct"
                 }
             ],
             "rdfs:comment": [
@@ -4275,7 +4464,7 @@
                 "@id": "unece:UNECECL3035Code"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Party"
+                "@id": "tourism:LodgingHouseParty"
             },
             "rdfs:comment": "The code specifying the role of this lodging house party.",
             "rdfs:label": "lodgingHousePartyRoleCode",
@@ -4296,9 +4485,14 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:decimal"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:CustomerClass"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:CustomerClass"
+                },
+                {
+                    "@id": "tourism:LodgingHouseCustomerClass"
+                }
+            ],
             "rdfs:comment": [
                 "The lower age limit in number of years for the category of a customer class.",
                 "The lower age limit in number of years for the category of this lodging house customer class."
@@ -4328,7 +4522,7 @@
                 "@id": "tourism:Person"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Reservation"
+                "@id": "tourism:LodgingHouseReservation"
             },
             "rdfs:comment": "The person making this lodging house reservation.",
             "rdfs:label": "makingPerson",
@@ -4349,7 +4543,7 @@
                 "@id": "xsd:base64Binary"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Route"
+                "@id": "tourism:LodgingHouseRoute"
             },
             "rdfs:comment": "A binary object data of a map for this route to this lodging house.",
             "rdfs:label": "mapBinaryObject",
@@ -4371,10 +4565,10 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Facility"
+                    "@id": "tourism:BathingFacility"
                 },
                 {
-                    "@id": "tourism:Feature"
+                    "@id": "tourism:LodgingHouseFeature"
                 }
             ],
             "rdfs:comment": [
@@ -4406,7 +4600,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:UsageCondition"
+                "@id": "tourism:LodgingHouseUsageCondition"
             },
             "rdfs:comment": "The maximum occupancy, expressed as text, applicable to the lodging house usage condition.",
             "rdfs:label": "maximumOccupancy",
@@ -4426,9 +4620,14 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:decimal"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:ReservationRestriction"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:LodgingHouseReservationRestriction"
+                },
+                {
+                    "@id": "tourism:ReservationRestriction"
+                }
+            ],
             "rdfs:comment": [
                 "The maximum quantity for this lodging house reservation restriction.",
                 "The maximum quantity for this reservation restriction."
@@ -4458,7 +4657,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Product"
+                "@id": "tourism:ExperienceProduct"
             },
             "rdfs:comment": "The maximum number of units of this experience product.",
             "rdfs:label": "maximumUnitQuantity",
@@ -4478,9 +4677,14 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:token"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:CustomerClass"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:CustomerClass"
+                },
+                {
+                    "@id": "tourism:LodgingHouseCustomerClass"
+                }
+            ],
             "rdfs:comment": [
                 "The code specifying the meal service category for a customer class.",
                 "The code specifying the meal service category for this lodging house customer class."
@@ -4510,7 +4714,7 @@
                 "@id": "xsd:dateTime"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Event"
+                "@id": "tourism:ExperienceEvent"
             },
             "rdfs:comment": "The meeting date, time, date time, or other date time value for this experience event.",
             "rdfs:label": "meetingDateTime",
@@ -4531,7 +4735,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Reservation"
+                "@id": "tourism:LodgingHouseReservation"
             },
             "rdfs:comment": "The code specifying the type of reservation message.for this lodging house.",
             "rdfs:label": "messageTypeCode",
@@ -4551,9 +4755,14 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:decimal"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:ReservationRestriction"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:LodgingHouseReservationRestriction"
+                },
+                {
+                    "@id": "tourism:ReservationRestriction"
+                }
+            ],
             "rdfs:comment": [
                 "The minimum quantity for this lodging house reservation restriction.",
                 "The minimum quantity for this reservation restriction."
@@ -4583,7 +4792,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Product"
+                "@id": "tourism:ExperienceProduct"
             },
             "rdfs:comment": "The minimum number of units of this experience product.",
             "rdfs:label": "minimumUnitQuantity",
@@ -4603,9 +4812,14 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:boolean"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Price"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:DiscountPrice"
+                },
+                {
+                    "@id": "tourism:ExtraPrice"
+                }
+            ],
             "rdfs:comment": [
                 "The indication of whether or not multiple reasons affect the extra price.",
                 "The indication of whether or not multiple reasons affect this discount price."
@@ -4636,46 +4850,55 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Allergy"
+                    "@id": "tourism:BathingFacility"
                 },
                 {
-                    "@id": "tourism:CarriedEquipment"
+                    "@id": "tourism:BusinessSupportRoomFacility"
                 },
                 {
-                    "@id": "tourism:Disability"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:ExperienceFacility"
                 },
                 {
-                    "@id": "tourism:Facility"
+                    "@id": "tourism:ExperienceProduct"
                 },
                 {
-                    "@id": "tourism:FoodChoice"
+                    "@id": "tourism:GuestAllergy"
                 },
                 {
-                    "@id": "tourism:Location"
+                    "@id": "tourism:GuestCarriedEquipment"
                 },
                 {
-                    "@id": "tourism:Organization"
+                    "@id": "tourism:GuestDisability"
                 },
                 {
-                    "@id": "tourism:Party"
+                    "@id": "tourism:GuestFoodChoice"
                 },
                 {
-                    "@id": "tourism:Person"
+                    "@id": "tourism:GuestPerson"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:GuestRoomFacility"
                 },
                 {
-                    "@id": "tourism:TravelProduct"
+                    "@id": "tourism:LodgingHouseLocation"
                 },
                 {
-                    "@id": "tourism:TravelProductComponent"
+                    "@id": "tourism:LodgingHouseOrganization"
                 },
                 {
-                    "@id": "tourism:TravelProductSubComponent"
+                    "@id": "tourism:LodgingHouseParty"
+                },
+                {
+                    "@id": "tourism:LodgingHouseTravelProduct"
+                },
+                {
+                    "@id": "tourism:LodgingHouseTravelProductComponent"
+                },
+                {
+                    "@id": "tourism:LodgingHouseTravelProductSubComponent"
                 }
             ],
             "rdfs:comment": [
@@ -4831,7 +5054,7 @@
                 "@id": "tourism:Country"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "The country of nationality for this guest.",
             "rdfs:label": "nationalityCountry",
@@ -4851,9 +5074,20 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:boolean"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Price"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:BasicPrice"
+                },
+                {
+                    "@id": "tourism:CancellationPrice"
+                },
+                {
+                    "@id": "tourism:DiscountPrice"
+                },
+                {
+                    "@id": "tourism:ExtraPrice"
+                }
+            ],
             "rdfs:comment": [
                 "The indication of whether or not the basic price is a net price.",
                 "The indication of whether or not the cancellation price is a net price.",
@@ -4899,7 +5133,7 @@
                 "@id": "tourism:Allergy"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "An allergy notified for this guest person.",
             "rdfs:label": "notifiedAllergy",
@@ -4920,7 +5154,7 @@
                 "@id": "tourism:Disability"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "A disability notified for this guest person.",
             "rdfs:label": "notifiedDisability",
@@ -4941,7 +5175,7 @@
                 "@id": "tourism:FoodChoice"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "A food choice notified for this guest person.",
             "rdfs:label": "notifiedFoodChoice",
@@ -4962,7 +5196,7 @@
                 "@id": "tourism:GuestArrival"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "An arrival notified for this guest person.",
             "rdfs:label": "notifiedGuestArrival",
@@ -4983,7 +5217,7 @@
                 "@id": "tourism:HealthIndication"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "A health indication notified for this guest person.",
             "rdfs:label": "notifiedHealthIndication",
@@ -5004,7 +5238,7 @@
                 "@id": "tourism:Preference"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "An experience item preference notified for this guest person.",
             "rdfs:label": "notifiedPreference",
@@ -5025,7 +5259,7 @@
                 "@id": "tourism:ProtectionMeans"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "A disease protection means notified for this guest person.",
             "rdfs:label": "notifiedProtectionMeans",
@@ -5046,7 +5280,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Product"
+                "@id": "tourism:ExperienceProduct"
             },
             "rdfs:comment": "An objective, expressed as text, for this experience product.",
             "rdfs:label": "objective",
@@ -5067,7 +5301,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Feature"
+                "@id": "tourism:LodgingHouseFeature"
             },
             "rdfs:comment": "The maximum number of occupants accommodated in this lodging house feature.",
             "rdfs:label": "occupantCapacityQuantity",
@@ -5087,9 +5321,17 @@
             "schema:rangeIncludes": {
                 "@id": "tourism:Service"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Facility"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:BathingFacility"
+                },
+                {
+                    "@id": "tourism:BusinessSupportRoomFacility"
+                },
+                {
+                    "@id": "tourism:GuestRoomFacility"
+                }
+            ],
             "rdfs:comment": [
                 "A supplemental service that is offered for this bathing facility.",
                 "A supplemental service that is offered for this business support room.",
@@ -5126,9 +5368,17 @@
             "schema:rangeIncludes": {
                 "@id": "tourism:Period"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Facility"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:BathingFacility"
+                },
+                {
+                    "@id": "tourism:BusinessSupportRoomFacility"
+                },
+                {
+                    "@id": "tourism:GuestRoomFacility"
+                }
+            ],
             "rdfs:comment": [
                 "A specified period of operation for this bathing facility.",
                 "A specified period of operation for this business support room.",
@@ -5167,10 +5417,10 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:ExperienceProduct"
                 }
             ],
             "rdfs:comment": [
@@ -5202,7 +5452,7 @@
                 "@id": "tourism:Product"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Product"
+                "@id": "tourism:ExperienceProduct"
             },
             "rdfs:comment": "An optional product for this experience product.",
             "rdfs:label": "optionalProduct",
@@ -5223,7 +5473,7 @@
                 "@id": "xsd:base64Binary"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Building"
+                "@id": "tourism:LodgingHouseBuilding"
             },
             "rdfs:comment": "The date of the original construction of this lodging house building.",
             "rdfs:label": "originalConstructionDate",
@@ -5244,7 +5494,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Organization"
+                "@id": "tourism:LodgingHouseOrganization"
             },
             "rdfs:comment": "The name of the company or individual, expressed as text, who is the owner of this lodging house organization.",
             "rdfs:label": "ownerName",
@@ -5265,7 +5515,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "The identifier of the passport of this guest.",
             "rdfs:label": "passportId",
@@ -5287,7 +5537,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Contact"
+                "@id": "tourism:LodgingHouseContact"
             },
             "rdfs:comment": "The name, expressed as text, of this contact person for this lodging house.",
             "rdfs:label": "personName",
@@ -5309,7 +5559,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:UsageCondition"
+                "@id": "tourism:LodgingHouseUsageCondition"
             },
             "rdfs:comment": "The physical characteristic limitation, expressed as text, applicable to this lodging house usage condition.",
             "rdfs:label": "physicalCharacteristic",
@@ -5331,10 +5581,19 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Facility"
+                    "@id": "tourism:BathingFacility"
                 },
                 {
-                    "@id": "tourism:TravelProductSubComponent"
+                    "@id": "tourism:BusinessSupportRoomFacility"
+                },
+                {
+                    "@id": "tourism:ExperienceFacility"
+                },
+                {
+                    "@id": "tourism:GuestRoomFacility"
+                },
+                {
+                    "@id": "tourism:LodgingHouseTravelProductSubComponent"
                 }
             ],
             "rdfs:comment": [
@@ -5390,7 +5649,7 @@
                 "@id": "tourism:Address"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Contact"
+                "@id": "tourism:LodgingHouseContact"
             },
             "rdfs:comment": "A structured postal address for this lodging house contact.",
             "rdfs:label": "postalAddress",
@@ -5411,7 +5670,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Preference"
+                "@id": "tourism:ExperienceItemPreference"
             },
             "rdfs:comment": "A preferred item, expressed as text, for this experience item preference.",
             "rdfs:label": "preferredItem",
@@ -5432,7 +5691,7 @@
                 "@id": "xsd:boolean"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Contact"
+                "@id": "tourism:LodgingHouseContact"
             },
             "rdfs:comment": "The indication of whether or not this is the primary contact for this lodging house.",
             "rdfs:label": "primaryIndicator",
@@ -5453,7 +5712,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Preference"
+                "@id": "tourism:ExperienceItemPreference"
             },
             "rdfs:comment": "The priority ranking number for this experience item preference.",
             "rdfs:label": "priorityRankingNumeric",
@@ -5474,7 +5733,7 @@
                 "@id": "xsd:time"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Itinerary"
+                "@id": "tourism:ProductComponentItinerary"
             },
             "rdfs:comment": "The end time of the product for this product component itinerary.",
             "rdfs:label": "productEndTime",
@@ -5495,7 +5754,7 @@
                 "@id": "xsd:time"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Itinerary"
+                "@id": "tourism:ProductComponentItinerary"
             },
             "rdfs:comment": "The start time of the product for this product component itinerary.",
             "rdfs:label": "productStartTime",
@@ -5516,7 +5775,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Reservation"
+                "@id": "tourism:LodgingHouseReservation"
             },
             "rdfs:comment": "The identifier of the property confirmation for this lodging house reservation.",
             "rdfs:label": "propertyConfirmationId",
@@ -5537,7 +5796,7 @@
                 "@id": "xsd:dateTime"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Reservation"
+                "@id": "tourism:LodgingHouseReservation"
             },
             "rdfs:comment": "The date, time, date time, or other date time value when the property confirmation is issued for this lodging house reservation.",
             "rdfs:label": "propertyConfirmationIssuedDateTime",
@@ -5559,10 +5818,10 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:ExperienceProduct"
                 }
             ],
             "rdfs:comment": [
@@ -5594,7 +5853,7 @@
                 "@id": "tourism:GuestArrival"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Traveller"
+                "@id": "tourism:LodgingHouseTraveller"
             },
             "rdfs:comment": "The arrival information provided for this lodging house traveller.",
             "rdfs:label": "providedGuestArrival",
@@ -5616,10 +5875,10 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:ExperienceProduct"
                 }
             ],
             "rdfs:comment": [
@@ -5651,7 +5910,7 @@
                 "@id": "tourism:Query"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "A special query raised for this guest person.",
             "rdfs:label": "raisedQuery",
@@ -5671,9 +5930,14 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:decimal"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Price"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:DiscountPrice"
+                },
+                {
+                    "@id": "tourism:ExtraPrice"
+                }
+            ],
             "rdfs:comment": [
                 "The number applicable to the reason for this discount price.",
                 "The number applicable to the reason for this extra price."
@@ -5702,9 +5966,14 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:token"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Price"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:DiscountPrice"
+                },
+                {
+                    "@id": "tourism:ExtraPrice"
+                }
+            ],
             "rdfs:comment": [
                 "The code specifying the reason for this discount price.",
                 "The code specifying the reason for this extra price."
@@ -5734,7 +6003,7 @@
                 "@id": "xsd:dateTime"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Disability"
+                "@id": "tourism:GuestDisability"
             },
             "rdfs:comment": "The date, time, date time, or other date time value when this guest disability has been registered.",
             "rdfs:label": "registeredDateTime",
@@ -5755,7 +6024,7 @@
                 "@id": "tourism:TravelProduct"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Traveller"
+                "@id": "tourism:LodgingHouseTraveller"
             },
             "rdfs:comment": "The travel product requested by this lodging house traveller.",
             "rdfs:label": "requestedTravelProduct",
@@ -5776,7 +6045,7 @@
                 "@id": "xsd:boolean"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Product"
+                "@id": "tourism:ExperienceProduct"
             },
             "rdfs:comment": "The indication of whether or not this experience product requires a reservation guarantee.",
             "rdfs:label": "requiredReservationGuaranteeIndicator",
@@ -5797,7 +6066,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Disability"
+                "@id": "tourism:GuestDisability"
             },
             "rdfs:comment": "A supporting device, expressed as text, required for this guest disability.",
             "rdfs:label": "requiredSupportingDevice",
@@ -5819,10 +6088,10 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:ExperienceProduct"
                 }
             ],
             "rdfs:comment": [
@@ -5855,13 +6124,13 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:ExperienceProduct"
                 },
                 {
-                    "@id": "tourism:TravelProduct"
+                    "@id": "tourism:LodgingHouseTravelProduct"
                 }
             ],
             "rdfs:comment": [
@@ -5901,7 +6170,7 @@
                 "@id": "xsd:boolean"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProduct"
+                "@id": "tourism:LodgingHouseTravelProduct"
             },
             "rdfs:comment": "The indication of whether or not this lodging house travel product requires a reservation guarantee.",
             "rdfs:label": "reservationGuaranteeRequiredIndicator",
@@ -5923,10 +6192,10 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:UsageCondition"
+                    "@id": "tourism:LodgingHouseUsageCondition"
                 }
             ],
             "rdfs:comment": [
@@ -5958,7 +6227,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Traveller"
+                "@id": "tourism:LodgingHouseTraveller"
             },
             "rdfs:comment": "The code specifying the reservation status of this lodging house traveller.",
             "rdfs:label": "reservationStatusCode",
@@ -5979,7 +6248,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "The identifier of the residence country of this guest person.",
             "rdfs:label": "residenceCountryId",
@@ -6000,7 +6269,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Contact"
+                "@id": "tourism:LodgingHouseContact"
             },
             "rdfs:comment": "The responsibility, expressed as text, of this lodging house contact.",
             "rdfs:label": "responsibility",
@@ -6022,19 +6291,19 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Allergy"
+                    "@id": "tourism:GuestAllergy"
                 },
                 {
-                    "@id": "tourism:CarriedEquipment"
+                    "@id": "tourism:GuestCarriedEquipment"
                 },
                 {
-                    "@id": "tourism:Disability"
+                    "@id": "tourism:GuestDisability"
                 },
                 {
-                    "@id": "tourism:FoodChoice"
+                    "@id": "tourism:GuestFoodChoice"
                 },
                 {
-                    "@id": "tourism:HealthIndication"
+                    "@id": "tourism:GuestHealthIndication"
                 }
             ],
             "rdfs:comment": [
@@ -6090,7 +6359,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "The code specifying the role of this guest person.",
             "rdfs:label": "roleCode",
@@ -6111,7 +6380,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Traveller"
+                "@id": "tourism:LodgingHouseTraveller"
             },
             "rdfs:comment": "The rooming, expressed as text, for this lodging house traveller.",
             "rdfs:label": "rooming",
@@ -6132,7 +6401,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProduct"
+                "@id": "tourism:LodgingHouseTravelProduct"
             },
             "rdfs:comment": "The name, expressed as text, of the sales manager for this lodging house travel product.",
             "rdfs:label": "salesManagerName",
@@ -6153,7 +6422,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProduct"
+                "@id": "tourism:LodgingHouseTravelProduct"
             },
             "rdfs:comment": "Sales office information, expressed as text, for this lodging house travel product.",
             "rdfs:label": "salesOfficeInformation",
@@ -6174,7 +6443,7 @@
                 "@id": "xsd:boolean"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Reservation"
+                "@id": "tourism:LodgingHouseReservation"
             },
             "rdfs:comment": "The indication of whether or not this lodging house reservation has met the sales policy.",
             "rdfs:label": "salesPolicyAcceptedIndicator",
@@ -6194,9 +6463,20 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:token"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Price"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:BasicPrice"
+                },
+                {
+                    "@id": "tourism:CancellationPrice"
+                },
+                {
+                    "@id": "tourism:DiscountPrice"
+                },
+                {
+                    "@id": "tourism:ExtraPrice"
+                }
+            ],
             "rdfs:comment": [
                 "The code specifying the seasonal rank of this basic price, such as peak or bottom.",
                 "The code specifying the seasonal rank of this cancellation price.",
@@ -6242,7 +6522,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Traveller"
+                "@id": "tourism:LodgingHouseTraveller"
             },
             "rdfs:comment": "The sequence identifier for this lodging house traveller.",
             "rdfs:label": "sequenceId",
@@ -6263,7 +6543,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:DailyPrice"
             },
             "rdfs:comment": "The monetary value of the service charge on which this daily price is calculated.",
             "rdfs:label": "serviceChargeAmount",
@@ -6283,9 +6563,17 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:boolean"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Price"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:BasicPrice"
+                },
+                {
+                    "@id": "tourism:DiscountPrice"
+                },
+                {
+                    "@id": "tourism:ExtraPrice"
+                }
+            ],
             "rdfs:comment": [
                 "The indication of whether or not a service charge is applicable to the basic price.",
                 "The indication of whether or not a service charge is applicable to the discount price.",
@@ -6323,7 +6611,7 @@
                 "@id": "tourism:Source"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Facility"
+                "@id": "tourism:BathingFacility"
             },
             "rdfs:comment": "A hot springs natural source that is situated in this bathing facility.",
             "rdfs:label": "situatedAtSource",
@@ -6343,9 +6631,14 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:boolean"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:CustomerClass"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:CustomerClass"
+                },
+                {
+                    "@id": "tourism:LodgingHouseCustomerClass"
+                }
+            ],
             "rdfs:comment": [
                 "The indication of whether or not special bedding service is offered for a customer class.",
                 "The indication of whether or not special bedding service is offered for this lodging house customer class."
@@ -6375,7 +6668,7 @@
                 "@id": "tourism:Note"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:CarriedEquipment"
+                "@id": "tourism:GuestCarriedEquipment"
             },
             "rdfs:comment": "A specification note for this guest carried equipment.",
             "rdfs:label": "specificationNote",
@@ -6396,7 +6689,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Itinerary"
+                "@id": "tourism:ProductComponentItinerary"
             },
             "rdfs:comment": "The specified area, expressed as text, for this product component itinerary.",
             "rdfs:label": "specifiedArea",
@@ -6417,7 +6710,7 @@
                 "@id": "tourism:Availability"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProductSubComponent"
+                "@id": "tourism:LodgingHouseTravelProductSubComponent"
             },
             "rdfs:comment": "An availability specified for this lodging house travel product sub-component.",
             "rdfs:label": "specifiedAvailability",
@@ -6438,7 +6731,7 @@
                 "@id": "tourism:CarriedEquipment"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "Carried equipment specified for this guest person.",
             "rdfs:label": "specifiedCarriedEquipment",
@@ -6459,7 +6752,7 @@
                 "@id": "tourism:Communication"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Facility"
+                "@id": "tourism:ExperienceFacility"
             },
             "rdfs:comment": "A specified universal communication for this experience facility.",
             "rdfs:label": "specifiedCommunication",
@@ -6480,7 +6773,7 @@
                 "@id": "tourism:IntermediarySale"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProduct"
+                "@id": "tourism:LodgingHouseTravelProduct"
             },
             "rdfs:comment": "Intermediary sale information specified for this lodging house travel product.",
             "rdfs:label": "specifiedIntermediarySale",
@@ -6508,7 +6801,7 @@
                 "@id": "tourism:Itinerary"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProductComponent"
+                "@id": "tourism:LodgingHouseTravelProductComponent"
             },
             "rdfs:comment": "A product component itinerary specified for this lodging house travel product component.",
             "rdfs:label": "specifiedItinerary",
@@ -6530,13 +6823,13 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Action"
+                    "@id": "tourism:ExperienceEvent"
                 },
                 {
-                    "@id": "tourism:Event"
+                    "@id": "tourism:ExperienceProduct"
                 },
                 {
-                    "@id": "tourism:Product"
+                    "@id": "tourism:ExperienceProgramAction"
                 }
             ],
             "rdfs:comment": [
@@ -6576,7 +6869,7 @@
                 "@id": "tourism:PaymentMeans"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "A trade settlement payment means specified for this guest person.",
             "rdfs:label": "specifiedPaymentMeans",
@@ -6597,7 +6890,7 @@
                 "@id": "tourism:Period"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProduct"
+                "@id": "tourism:LodgingHouseTravelProduct"
             },
             "rdfs:comment": "The period specified for this lodging house travel product.",
             "rdfs:label": "specifiedPeriod",
@@ -6618,7 +6911,7 @@
                 "@id": "tourism:ReservationRestriction"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProduct"
+                "@id": "tourism:LodgingHouseTravelProduct"
             },
             "rdfs:comment": "A reservation restriction specified for this lodging house travel product.",
             "rdfs:label": "specifiedReservationRestriction",
@@ -6646,7 +6939,7 @@
                 "@id": "tourism:ServiceOption"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProductSubComponent"
+                "@id": "tourism:LodgingHouseTravelProductSubComponent"
             },
             "rdfs:comment": "A service option specified for this lodging house travel product sub-component.",
             "rdfs:label": "specifiedServiceOption",
@@ -6667,7 +6960,7 @@
                 "@id": "tourism:TravelProductComponent"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProduct"
+                "@id": "tourism:LodgingHouseTravelProduct"
             },
             "rdfs:comment": "A travel component specified for this lodging house travel product.",
             "rdfs:label": "specifiedTravelProductComponent",
@@ -6688,7 +6981,7 @@
                 "@id": "tourism:Traveller"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Reservation"
+                "@id": "tourism:LodgingHouseReservation"
             },
             "rdfs:comment": "A traveller specified for this lodging house reservation.",
             "rdfs:label": "specifiedTraveller",
@@ -6708,9 +7001,17 @@
             "schema:rangeIncludes": {
                 "@id": "tourism:UsageCondition"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Facility"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:BathingFacility"
+                },
+                {
+                    "@id": "tourism:BusinessSupportRoomFacility"
+                },
+                {
+                    "@id": "tourism:GuestRoomFacility"
+                }
+            ],
             "rdfs:comment": [
                 "A specified usage condition for this bathing facility at this lodging house.",
                 "A specified usage condition for this guest room at this lodging house.",
@@ -6748,7 +7049,7 @@
                 "@id": "xsd:base64Binary"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Contract"
+                "@id": "tourism:LodgingHouseContract"
             },
             "rdfs:comment": "The date on which this lodging house contract starts.",
             "rdfs:label": "startDate",
@@ -6769,7 +7070,7 @@
                 "@id": "xsd:dateTime"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Period"
+                "@id": ":AvailablePeriod"
             },
             "rdfs:comment": "The date, time, date time or other date time value for the start of this available period of time.",
             "rdfs:label": "startDateTime",
@@ -6790,7 +7091,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:HealthIndication"
+                "@id": "tourism:GuestHealthIndication"
             },
             "rdfs:comment": "A status, expressed as text, for this guest health indication.",
             "rdfs:label": "status",
@@ -6812,10 +7113,10 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Action"
+                    "@id": "tourism:ExperienceProgramAction"
                 },
                 {
-                    "@id": "tourism:Reservation"
+                    "@id": "tourism:LodgingHouseReservation"
                 }
             ],
             "rdfs:comment": [
@@ -6847,7 +7148,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Picture"
+                "@id": "tourism:LodgingHousePicture"
             },
             "rdfs:comment": "The subject, expressed as text, for this lodging house picture.",
             "rdfs:label": "subject",
@@ -6868,7 +7169,7 @@
                 "@id": "tourism:Query"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Traveller"
+                "@id": "tourism:LodgingHouseTraveller"
             },
             "rdfs:comment": "A special query submitted by this lodging house traveller.",
             "rdfs:label": "submittedQuery",
@@ -6890,10 +7191,10 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:TravelProduct"
+                    "@id": "tourism:LodgingHouseTravelProduct"
                 },
                 {
-                    "@id": "tourism:TravelProductSubComponent"
+                    "@id": "tourism:LodgingHouseTravelProductSubComponent"
                 }
             ],
             "rdfs:comment": [
@@ -6926,10 +7227,10 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:TravelProduct"
+                    "@id": "tourism:LodgingHouseTravelProduct"
                 },
                 {
-                    "@id": "tourism:TravelProductSubComponent"
+                    "@id": "tourism:LodgingHouseTravelProductSubComponent"
                 }
             ],
             "rdfs:comment": [
@@ -6961,7 +7262,7 @@
                 "@id": "xsd:dateTime"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Picture"
+                "@id": "tourism:LodgingHousePicture"
             },
             "rdfs:comment": "The date, time, date time, or other date value when this lodging house picture was created.",
             "rdfs:label": "takenDateTime",
@@ -6981,9 +7282,17 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:boolean"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Price"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:BasicPrice"
+                },
+                {
+                    "@id": "tourism:DiscountPrice"
+                },
+                {
+                    "@id": "tourism:ExtraPrice"
+                }
+            ],
             "rdfs:comment": [
                 "The indication of whether or not a tax charge is applicable to the basic price.",
                 "The indication of whether or not a tax charge is applicable to the discount price.",
@@ -7021,7 +7330,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:DailyPrice"
             },
             "rdfs:comment": "The monetary value of the tax, such as sales tax, charged for this commission price on which the daily price is calculated.",
             "rdfs:label": "taxCommissionChargeAmount",
@@ -7042,7 +7351,7 @@
                 "@id": "tourism:Communication"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Contact"
+                "@id": "tourism:LodgingHouseContact"
             },
             "rdfs:comment": "A universal telephone communication for this lodging house contact.",
             "rdfs:label": "telephoneCommunication",
@@ -7063,7 +7372,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Product"
+                "@id": "tourism:ExperienceProduct"
             },
             "rdfs:comment": "A theme, expressed as text, for this experience product.",
             "rdfs:label": "theme",
@@ -7084,7 +7393,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Product"
+                "@id": "tourism:ExperienceProduct"
             },
             "rdfs:comment": "The code specifying the type of theme for this experience product.",
             "rdfs:label": "themeTypeCode",
@@ -7105,7 +7414,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "The title, expressed as text, associated with this guest, such as Doctor, Mr., Mrs., Ms.",
             "rdfs:label": "title",
@@ -7127,7 +7436,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "The code specifying the title of this guest person.",
             "rdfs:label": "titleCode",
@@ -7148,7 +7457,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Picture"
+                "@id": "tourism:LodgingHousePicture"
             },
             "rdfs:comment": "The title name, expressed as text, for this lodging house picture.",
             "rdfs:label": "titleName",
@@ -7169,7 +7478,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Reservation"
+                "@id": "tourism:LodgingHouseReservation"
             },
             "rdfs:comment": "The total number of customers for this lodging house reservation.",
             "rdfs:label": "totalCustomerQuantity",
@@ -7190,7 +7499,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Contract"
+                "@id": "tourism:LodgingHouseContract"
             },
             "rdfs:comment": "The unique identifier for the trading partner for this lodging house contract.",
             "rdfs:label": "tradingPartnerId",
@@ -7212,7 +7521,7 @@
                 "@id": "xsd:string"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Route"
+                "@id": "tourism:LodgingHouseRoute"
             },
             "rdfs:comment": "A means of transport, expressed as text, used for this route to this lodging house.",
             "rdfs:label": "transportMeans",
@@ -7233,7 +7542,7 @@
                 "@id": "tourism:Certificate"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "A travel insurance certificate for this guest person.",
             "rdfs:label": "travelInsuranceCertificate",
@@ -7254,7 +7563,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:TravelProduct"
+                "@id": "tourism:LodgingHouseTravelProduct"
             },
             "rdfs:comment": "The unique travel licence identifier for this lodging house travel product.",
             "rdfs:label": "travelLicenceId",
@@ -7275,7 +7584,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Price"
+                "@id": "tourism:DailyPrice"
             },
             "rdfs:comment": "The monetary value of the travel product tax charged on which this daily price is calculated.",
             "rdfs:label": "travelProductTaxChargeAmount",
@@ -7297,16 +7606,28 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Action"
+                    "@id": "tourism:BasicPrice"
                 },
                 {
-                    "@id": "tourism:Facility"
+                    "@id": "tourism:DailyPrice"
                 },
                 {
-                    "@id": "tourism:Picture"
+                    "@id": "tourism:DiscountPrice"
                 },
                 {
-                    "@id": "tourism:Price"
+                    "@id": "tourism:ExperienceFacility"
+                },
+                {
+                    "@id": "tourism:ExperienceProgramAction"
+                },
+                {
+                    "@id": "tourism:ExtraPrice"
+                },
+                {
+                    "@id": "tourism:GuestRoomFacility"
+                },
+                {
+                    "@id": "tourism:LodgingHousePicture"
                 }
             ],
             "rdfs:comment": [
@@ -7389,37 +7710,40 @@
             },
             "schema:domainIncludes": [
                 {
-                    "@id": "tourism:Action"
+                    "@id": "tourism:ExperienceItemVoucher"
                 },
                 {
-                    "@id": "tourism:Allergy"
+                    "@id": "tourism:ExperienceProgramAction"
                 },
                 {
-                    "@id": "tourism:CarriedEquipment"
+                    "@id": "tourism:GuestAllergy"
                 },
                 {
-                    "@id": "tourism:Contact"
+                    "@id": "tourism:GuestCarriedEquipment"
                 },
                 {
-                    "@id": "tourism:Disability"
+                    "@id": "tourism:GuestDisability"
                 },
                 {
-                    "@id": "tourism:FoodChoice"
+                    "@id": "tourism:GuestFoodChoice"
                 },
                 {
-                    "@id": "tourism:HealthIndication"
+                    "@id": "tourism:GuestHealthIndication"
                 },
                 {
-                    "@id": "tourism:Party"
+                    "@id": "tourism:LodgingHouseContact"
+                },
+                {
+                    "@id": "tourism:LodgingHouseParty"
+                },
+                {
+                    "@id": "tourism:LodgingHouseReservationRestriction"
+                },
+                {
+                    "@id": "tourism:LodgingHouseTravelProduct"
                 },
                 {
                     "@id": "tourism:ReservationRestriction"
-                },
-                {
-                    "@id": "tourism:TravelProduct"
-                },
-                {
-                    "@id": "tourism:Voucher"
                 }
             ],
             "rdfs:comment": [
@@ -7531,7 +7855,7 @@
                 "@id": "xsd:token"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:ReservationItem"
+                "@id": "tourism:TravelProductReservationItem"
             },
             "rdfs:comment": "The identifier of the unit for this travel product reservation item.",
             "rdfs:label": "unitId",
@@ -7552,7 +7876,7 @@
                 "@id": "xsd:decimal"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:ReservationItem"
+                "@id": "tourism:TravelProductReservationItem"
             },
             "rdfs:comment": "The number of units of this travel product reservation item.",
             "rdfs:label": "unitQuantity",
@@ -7572,9 +7896,14 @@
             "schema:rangeIncludes": {
                 "@id": "xsd:decimal"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:CustomerClass"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:CustomerClass"
+                },
+                {
+                    "@id": "tourism:LodgingHouseCustomerClass"
+                }
+            ],
             "rdfs:comment": [
                 "The upper age limit in number of years for the category of a customer class.",
                 "The upper age limit in number of years for the category of this lodging house customer class."
@@ -7604,7 +7933,7 @@
                 "@id": "tourism:Communication"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Person"
+                "@id": "tourism:GuestPerson"
             },
             "rdfs:comment": "A universal communication used by this guest.",
             "rdfs:label": "usedCommunication",
@@ -7625,7 +7954,7 @@
                 "@id": "tourism:SalesChannel"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Reservation"
+                "@id": "tourism:LodgingHouseReservation"
             },
             "rdfs:comment": "A travel sales channel used for this lodging house reservation.",
             "rdfs:label": "usedSalesChannel",
@@ -7646,7 +7975,7 @@
                 "@id": "tourism:Source"
             },
             "schema:domainIncludes": {
-                "@id": "tourism:Facility"
+                "@id": "tourism:ExperienceFacility"
             },
             "rdfs:comment": "A water source used by this experience facility.",
             "rdfs:label": "usedSource",
@@ -7666,9 +7995,20 @@
             "schema:rangeIncludes": {
                 "@id": "tourism:Period"
             },
-            "schema:domainIncludes": {
-                "@id": "tourism:Price"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "tourism:BasicPrice"
+                },
+                {
+                    "@id": "tourism:CancellationPrice"
+                },
+                {
+                    "@id": "tourism:DiscountPrice"
+                },
+                {
+                    "@id": "tourism:ExtraPrice"
+                }
+            ],
             "rdfs:comment": [
                 "A seasonal period for which this basic price is valid.",
                 "A seasonal period for which this cancellation price is valid.",
