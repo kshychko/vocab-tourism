@@ -16,7 +16,7 @@ jobs:
           java-version: '11'
       - run: 'echo "field: ${{ github.event.client_payload.artefacts.jsonldVocab.url }}"'
       - run: 'echo "field: ${{ github.event.client_payload.artefacts.jsonldVocab.fileName }}"'
-      - run: 'wget -O transport.jsonld ${{ github.event.client_payload.artefacts.jsonldVocab.url }}'
+      - run: 'wget -O tourism.jsonld ${{ github.event.client_payload.artefacts.jsonldVocab.url }}'
       - run: 'mv tourism.jsonld vocab/'
       - run: java -jar vocab-jsonld-merge-1.0.0.jar
       - run: 'mv merged.jsonld vocab/'
