@@ -31,6 +31,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: robinraju/release-downloader@v1.8
+        with:
+          repository: "uncefact/vocab-transport"
+          latest: true
+          fileName: "transport.jsonld"
+          out-file-path: "vocab"
+          tarBall: false
+          zipBall: false
+          extract: false
       - uses: actions/setup-java@v2
         with:
           distribution: 'adopt'
